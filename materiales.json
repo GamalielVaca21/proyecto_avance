@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Material 1"
+    },
+    {
+        "id": 2,
+        "nombre": "Material 2"
+    },
+    {
+        "id": 3,
+        "nombre": "Material 3"
+    },
+    {
+        "id": 4,
+        "nombre": "Material 4"
+    },
+    {
+        "id": 5,
+        "nombre": "Material 5"
+    }
+   
+]

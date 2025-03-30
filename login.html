@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="contenedor">
+      <div class="nav">
+            <div class="logo">
+                <a href=""><img src="" height="100"></a>
+            </div>
+            <div class="tel">
+                <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                <p></p>
+            </div>
+            <div class="mail">
+                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                <p></p>
+            </div>
+            <div class="red1">
+                <a href=""><img src="" height="50"></a>
+            </div>
+            <div class="red2">
+                <a href=""><img src="" height="50"></a>
+            </div>
+            <div class="red3">
+                <a href=""><img src="" height="50"></a>
+            </div>
+            <div class="red4">
+                <a href=""><img src="" height="50"></a>
+            </div>
+      </div>
+      <aside> 
+        <img src="recursos/Photographer-Silhouette-PNG-Cutout.png" alt="" height="500">
+    </aside>
+      <div class="form">
+        <form action="connectLogin.php" method="POST" enctype="multipart/form-data">
+            <h1>Inicia sesión</h1><br>
+            <input type="text" id="seudonimo" maxlength="30" placeholder="Seudonimo" name="seudonimo">
+            <input type="email" id="correo" placeholder="name@mail.com" name="correo">
+            <input type="password" id="password" max="30" placeholder="Password" name="password">
+            <br><br>
+            <button type="submit" class="send-button" name="enviar" value="Guardar">Enviar</button>
+            <div class="options">
+                <a href="signup.html" id="signup">Crear una nueva cuenta</a>
+                <a href="" id="forgorpass">¿Olvidaste tu contraseña?</a>
+            </div>
+        </form>
+    </div>
+    <script src="js/header.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
