@@ -1,23 +1,54 @@
 [
     {
-        "id": 1,
-        "nombre": "Material 1"
+        "id_material": 1,
+        "material": "Polietileno de Alta Densidad (HDPE)",
+        "cantidad": "10"
     },
     {
-        "id": 2,
-        "nombre": "Material 2"
+        "id_material": 2,
+        "material": "Caucho EPDM",
+        "cantidad": "20"
     },
     {
-        "id": 3,
-        "nombre": "Material 3"
+        "id_material": 3,
+        "material": "Acero Inoxidable 304",
+        "cantidad": "50"
     },
     {
-        "id": 4,
-        "nombre": "Material 4"
+        "id_material": 4,
+        "material": "Aluminio Anodizado",
+        "cantidad": "30"
     },
     {
-        "id": 5,
-        "nombre": "Material 5"
+        "id_material": 5,
+        "material": "Resina ABS",
+        "cantidad": "10"
+    },
+    {
+        "id_material": 6,
+        "material": "Poliuretano Expandido",
+        "cantidad": "40"
+    },
+    {
+        "id-material": 7,
+        "material": "PVC Flexible",
+        "cantidad": "20"
+    },
+    {
+        "id-material": 8,
+        "material": "Silicona de Grado Industrial",
+        "cantidad": "20"
+    },
+    {
+        "id-material": 9,
+        "material": "Cobre Electrolítico",
+        "cantidad": "50"
+    },
+    {
+        "id_material": 10,
+        "material": "Fibra de Vidrio",
+        "cantidad": "20"
     }
-   
-]
+  ]
+
+  
